@@ -65,3 +65,23 @@ if (EveryListItems.length) {
   });
 }
 ```
+
+## Education
+
+### University
+
+Omsk State Technical University, Radio Engineering Faculty, specialty «Radio Engineering»
+
+### Courses
+
+* Hexlet. The basics of modern HTML coding
+
+  ![Hexlet](img/hexlet.jpg "Hexlet")
+
+* Code Basics. HTML, CSS and JavaScript
+
+  ![CodeBasics](img/code-basics.jpg "CodeBasics")
+
+* BeONmax. WordPress – Quick start
+
+  ![BeONmax](img/beonmax.jpg "BeONmax")
