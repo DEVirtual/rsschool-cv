@@ -51,3 +51,17 @@ I am sure that this technical background and relevant work experience, as well a
 + increased attention to details and minutiae
 + rapid development of new software and technologies
 + more than 10 years of remote work experience
+
+## Code example
+
+```
+const EveryListItems = document.querySelectorAll(".any-list");
+
+if (EveryListItems.length) {
+  EveryListItems.forEach(function (EveryListItem) {
+    if (EveryListItem.closest(".box")) {
+      EveryListItem.classList.add("_active");
+    }
+  });
+}
+```
