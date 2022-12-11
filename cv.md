@@ -85,3 +85,8 @@ Omsk State Technical University, Radio Engineering Faculty, specialty «Radio En
 * BeONmax. WordPress – Quick start
 
   ![BeONmax](img/beonmax.jpg "BeONmax")
+
+## Languages
+
+* Russian - native
+* English - A1
