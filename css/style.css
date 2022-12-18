@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* ПОДКЛЮЧЕНИЕ ЛОКАЛЬНЫХ ШРИФТОВ */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Medium.woff2") format("woff2"), url("../fonts/OpenSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2"), url("../fonts/OpenSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+/* НАСТРОЙКА ПРОЕКТА */
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.3px;
+  color: #484848;
+}
+
+/* СТИЛИ ПРОЕКТА */
+[class*=__container] {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.title {
+  margin: 0px 0px 25px 0px;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: -1.2px;
+  color: rgba(29, 29, 27, 0.9490196078);
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0px 0px 20px 0px;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: -1.2px;
+  color: rgba(29, 29, 27, 0.9490196078);
+}
+
+.item {
+  margin: 0px 0px 3px 0px;
+}
+.item::before {
+  display: inline-block;
+  width: 27px;
+  height: 14px;
+  background-image: url(../icons/list-check.svg);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.link {
+  color: #437df9;
+}
+
+.text {
+  padding: 0px 0px 7px 0px;
+}
+
+.header {
+  padding: 30px 0;
+  background-color: #e4e6ea;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.header__link {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  color: #484848;
+  text-transform: uppercase;
+}
+
+.about {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__avatar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+}
+.about__header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 90%;
+          flex: 1 1 90%;
+  text-align: center;
+}
+.about__title {
+  margin: 0px 0px 5px 0px;
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+  color: rgba(29, 29, 27, 0.9490196078);
+}
+.about__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.contacts {
+  padding: 40px 0;
+  background-color: #e4e6ea;
+}
+
+.summary {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+.summary__text {
+  text-align: justify;
+}
+
+.skills {
+  padding: 40px 0;
+  background-color: #e4e6ea;
+}
+.skills__list {
+  margin: 0px 0px 20px 0px;
+}
+
+.code {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+.education {
+  padding: 40px 0;
+  background-color: #e4e6ea;
+}
+.education__text {
+  margin: 0px 0px 20px 0px;
+}
+.education__list {
+  margin: 0px 0px 20px 0px;
+}
+
+.projects {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+.languages {
+  padding: 40px 0;
+  background-color: #e4e6ea;
+}
+
+.footer {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__copyright {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 70%;
+          flex: 1 1 70%;
+}
+.footer__link {
+  color: #437df9;
+}
+.footer__logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  text-align: right;
+}
+.footer__image {
+  width: 100px;
+}
