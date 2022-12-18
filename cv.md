@@ -76,15 +76,15 @@ Omsk State Technical University, Radio Engineering Faculty, specialty «Radio En
 
 * Hexlet. The basics of modern HTML coding
 
-  ![Hexlet](img/hexlet.jpg "Hexlet")
+  ![Hexlet](img/сourses-hexlet.jpg "Hexlet")
 
 * Code Basics. HTML, CSS and JavaScript
 
-  ![CodeBasics](img/code-basics.jpg "CodeBasics")
+  ![CodeBasics](img/сourses-code-basics.jpg "CodeBasics")
 
 * BeONmax. WordPress – Quick start
 
-  ![BeONmax](img/beonmax.jpg "BeONmax")
+  ![BeONmax](img/сourses-beonmax.jpg "BeONmax")
 
 ## Languages
 
