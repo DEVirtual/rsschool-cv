@@ -1,0 +1,111 @@
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* ПОДКЛЮЧЕНИЕ ЛОКАЛЬНЫХ ШРИФТОВ */
+
+// @font-face {
+//   font-family: "Gilroy";
+//   src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+//        url("../fonts/Gilroy-Regular.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Gilroy";
+//   src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+//        url("../fonts/Gilroy-Bold.woff") format("woff");
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+/* НАСТРОЙКА ПРОЕКТА */
+
+// html,
+// body {
+//   height: 100%;
+// }
+
+// html {
+//   font-size: 16px;
+// }
+
+// body {
+//   font-family: "Gilroy", sans-serif;
+//   line-height: 1;
+//   color: #4B4B4B;
+// }
+
+// .wrapper {
+//   min-height: 100%;
+//   overflow: hidden;
+//   overflow-x: hidden;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// main {
+//   flex-grow: 1;
+// }
+
+/* Ограничивающий контейнер */
+
+// [class*="__container"] {
+//   max-width: calc(1020px + 2 * 15px);
+//   margin: 0 auto;
+//   padding: 0px 15px;
+// }
+
+/* Адаптация изображений */
+
+// ._img-a {
+//   position: relative;
+//   padding: 0px 0px (высота / ширина) 0px;
+//   img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//     object-position: center;
+//   }
+// }
