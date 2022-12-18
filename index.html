@@ -10,120 +10,140 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li class="header__item"><a class="header__link" href="#contacts">Contacts</a></li>
-          <li class="header__item"><a class="header__link" href="#summary">Summary</a></li>
-          <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
-          <li class="header__item"><a class="header__link" href="#code">Code</a></li>
-          <li class="header__item"><a class="header__link" href="#education">Education</a></li>
-          <li class="header__item"><a class="header__link" href="#projects">Projects</a></li>
-          <li class="header__item"><a class="header__link" href="#languages">Languages</a></li>
-        </ul>
-      </nav>
+      <div class="header__container">
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="#contacts">Contacts</a></li>
+            <li class="header__item"><a class="header__link" href="#summary">Summary</a></li>
+            <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
+            <li class="header__item"><a class="header__link" href="#code">Code</a></li>
+            <li class="header__item"><a class="header__link" href="#education">Education</a></li>
+            <li class="header__item"><a class="header__link" href="#projects">Projects</a></li>
+            <li class="header__item"><a class="header__link" href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <section class="about">
-        <img class="about__avatar" src="icons/about-avatar.png" alt="My avatar">
-        <h1 class="about__title">Dmitry Evdokimov</h1>
-        <p class="about__subtitle">Junior front-end developer</p>
+        <div class="about__container">
+          <img class="about__avatar" src="icons/about-avatar.png" alt="My avatar">
+          <div class="about__header">
+            <h1 class="about__title">Dmitry Evdokimov</h1>
+            <p class="about__subtitle">Junior front-end developer</p>
+          </div>
+        </div>
       </section>
-      <section class="contacts">
-        <h2 class="contacts__title title">Contact information</h2>
-        <ul class="contacts__list list">
-          <li class="contacts__item item">E-mail: DEVirtual@mail.ru</li>
-          <li class="contacts__item item">Skype: devirtual@outlook.com</li>
-          <li class="contacts__item item">Discord: DEVirtual#7550</li>
-          <li class="contacts__item item">Telegram: @DEVirtual</li>
-          <li class="contacts__item item">GitHub: DEVirtual</li>
-        </ul>
+      <section class="contacts" id="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title title">Contact information</h2>
+          <ul class="contacts__list list">
+            <li class="contacts__item item">E-mail: DEVirtual@mail.ru</li>
+            <li class="contacts__item item">Skype: devirtual@outlook.com</li>
+            <li class="contacts__item item">Discord: DEVirtual#7550</li>
+            <li class="contacts__item item">Telegram: @DEVirtual</li>
+            <li class="contacts__item item">GitHub: DEVirtual</li>
+          </ul>
+        </div>
       </section>
-      <section class="summary">
-        <h2 class="summary__title title">About Me</h2>
-        <p class="summary__text text">My name is Dmitry, I am 35 years old. I have a higher technical education.</p>
-        <p class="summary__text text">In recent years, I have been providing services in the field of information technology and engineering. I provide assistance in the administration and support of websites, deployment and configuration of CMS. I also do engineering and calculation work, processing and structuring information, writing technical articles and manuals.</p>
-        <p class="summary__text text">I help students in writing diploma and course projects in the field of IT.</p>
-        <p class="summary__text text">At the moment I am studying RS School JavaScript/Front-end course.</p>
-        <p class="summary__text text">I am sure that this technical background and relevant work experience, as well as interest and desire for professional development in the field of Front-end development, will be a good starting point for entering this profession.</p>
+      <section class="summary" id="summary">
+        <div class="summary__container">
+          <h2 class="summary__title title">About Me</h2>
+          <p class="summary__text text">My name is Dmitry, I am 35 years old. I have a higher technical education.</p>
+          <p class="summary__text text">In recent years, I have been providing services in the field of information technology and engineering. I provide assistance in the administration and support of websites, deployment and configuration of CMS. I also do engineering and calculation work, processing and structuring information, writing technical articles and manuals.</p>
+          <p class="summary__text text">I help students in writing diploma and course projects in the field of IT.</p>
+          <p class="summary__text text">At the moment I am studying RS School JavaScript/Front-end course.</p>
+          <p class="summary__text text">I am sure that this technical background and relevant work experience, as well as interest and desire for professional development in the field of Front-end development, will be a good starting point for entering this profession.</p>
+        </div>
       </section>
-      <section class="skills">
-        <h2 class="skills__title title">Skills and Proficiency</h2>
-        <h3 class="skills__subtitle subtitle">Hard skills (basics)</h3>
-        <ul class="skills__list list">
-          <li class="skills__item item">HTML5, CSS3 and JavaScript</li>
-          <li class="skills__item item">BEM methodology</li>
-          <li class="skills__item item">Sass/SCSS</li>
-          <li class="skills__item item">Git, GitHub</li>
-          <li class="skills__item item">Node.js</li>
-          <li class="skills__item item">Gulp</li>
-          <li class="skills__item item">Figma</li>
-        </ul>
-        <h3 class="skills__subtitle subtitle">Relevant hard skills</h3>
-        <ul class="skills__list list">
-          <li class="skills__item item">Microsoft Word, Excel, PowerPoint, Visio, Access, Project</li>
-          <li class="skills__item item">MS Visual Studio (Code), SSMS, Eclipse, IntelliJ IDEA</li>
-          <li class="skills__item item">MS SQL Server, MySQL, Firebird, Oracle</li>
-          <li class="skills__item item">PHP, Open Server, Hosting services</li>
-          <li class="skills__item item">IBM Rational Rose, ERwin, BPwin</li>
-          <li class="skills__item item">WordPress, 1С- Bitrix24</li>
-          <li class="skills__item item">LabVIEW, Assembler</li>
-        </ul>
-        <h3 class="skills__subtitle subtitle">Soft skills</h3>
-        <ul class="skills__list list">
-          <li class="skills__item item">the ability to systematize and structure the information received</li>
-          <li class="skills__item item">parallel management of several projects without breaking deadlines</li>
-          <li class="skills__item item">the ability to organize and plan your working time</li>
-          <li class="skills__item item">ability to learn and perceive information</li>
-          <li class="skills__item item">increased attention to details and minutiae</li>
-          <li class="skills__item item">rapid development of new software and technologies</li>
-          <li class="skills__item item">more than 10 years of remote work experience</li>
-        </ul>
+      <section class="skills" id="skills">
+        <div class="skills__container">
+          <h2 class="skills__title title">Skills and Proficiency</h2>
+          <h3 class="skills__subtitle subtitle">Hard skills (basics)</h3>
+          <ul class="skills__list list">
+            <li class="skills__item item">HTML5, CSS3 and JavaScript</li>
+            <li class="skills__item item">BEM methodology</li>
+            <li class="skills__item item">Sass/SCSS</li>
+            <li class="skills__item item">Git, GitHub</li>
+            <li class="skills__item item">Node.js</li>
+            <li class="skills__item item">Gulp</li>
+            <li class="skills__item item">Figma</li>
+          </ul>
+          <h3 class="skills__subtitle subtitle">Relevant hard skills</h3>
+          <ul class="skills__list list">
+            <li class="skills__item item">Microsoft Word, Excel, PowerPoint, Visio, Access, Project</li>
+            <li class="skills__item item">MS Visual Studio (Code), SSMS, Eclipse, IntelliJ IDEA</li>
+            <li class="skills__item item">MS SQL Server, MySQL, Firebird, Oracle</li>
+            <li class="skills__item item">PHP, Open Server, Hosting services</li>
+            <li class="skills__item item">IBM Rational Rose, ERwin, BPwin</li>
+            <li class="skills__item item">WordPress, 1С- Bitrix24</li>
+            <li class="skills__item item">LabVIEW, Assembler</li>
+          </ul>
+          <h3 class="skills__subtitle subtitle">Soft skills</h3>
+          <ul class="skills__list list">
+            <li class="skills__item item">the ability to systematize and structure the information received</li>
+            <li class="skills__item item">parallel management of several projects without breaking deadlines</li>
+            <li class="skills__item item">the ability to organize and plan your working time</li>
+            <li class="skills__item item">ability to learn and perceive information</li>
+            <li class="skills__item item">increased attention to details and minutiae</li>
+            <li class="skills__item item">rapid development of new software and technologies</li>
+            <li class="skills__item item">more than 10 years of remote work experience</li>
+          </ul>
+        </div>
       </section>
-      <section class="code">
-        <h2 class="code__title title">Code example</h2>
-        <pre class="code__example">
-          <code class="code__text">
-            const EveryListItems = document.querySelectorAll(".any-list");
-            if (EveryListItems.length) {
-              EveryListItems.forEach(function (EveryListItem) {
-                if (EveryListItem.closest(".box")) {
-                  EveryListItem.classList.add("_active");
-                }
-              });
-            }
-          </code>
-        </pre>
+      <section class="code" id="code">
+        <div class="code__container">
+          <h2 class="code__title title">Code example</h2>
+          <pre class="code__example">
+<code class="code__text">const EveryListItems = document.querySelectorAll(".any-list");
+if (EveryListItems.length) {
+  EveryListItems.forEach(function (EveryListItem) {
+    if (EveryListItem.closest(".box")) {
+      EveryListItem.classList.add("_active");
+    }
+  });
+}</code>
+          </pre>
+        </div>
       </section>
-      <section class="education">
-        <h2 class="education__title title">Education</h2>
-        <h3 class="education__subtitle subtitle">University</h3>
-        <p class="education__text text">Omsk State Technical University, Radio Engineering Faculty, specialty «Radio Engineering»</p>
-        <h3 class="education__subtitle subtitle">Courses</h3>
-        <ul class="education__list list">
-          <li class="education__item item"><a class="education__link link" href="https://devirtual.ru/education/hexlet.jpg" target="_blank">Hexlet. The basics of modern HTML coding</a></li>
-          <li class="education__item item"><a class="education__link link" href="https://devirtual.ru/education/code-basics.jpg" target="_blank">Code Basics. HTML, CSS and JavaScript</a></li>
-          <li class="education__item item"><a class="education__link link" href="https://devirtual.ru/education/beonmax.jpg" target="_blank">BeONmax. WordPress – Quick start</a></li>
-        </ul>
+      <section class="education" id="education">
+        <div class="education__container">
+          <h2 class="education__title title">Education</h2>
+          <h3 class="education__subtitle subtitle">University</h3>
+          <p class="education__text text">Omsk State Technical University, Radio Engineering Faculty, specialty «Radio Engineering»</p>
+          <h3 class="education__subtitle subtitle">Courses</h3>
+          <ul class="education__list list">
+            <li class="education__item item"><a class="education__link link" href="https://devirtual.ru/education/hexlet.jpg" target="_blank">Hexlet. The basics of modern HTML coding</a></li>
+            <li class="education__item item"><a class="education__link link" href="https://devirtual.ru/education/code-basics.jpg" target="_blank">Code Basics. HTML, CSS and JavaScript</a></li>
+            <li class="education__item item"><a class="education__link link" href="https://devirtual.ru/education/beonmax.jpg" target="_blank">BeONmax. WordPress – Quick start</a></li>
+          </ul>
+        </div>
       </section>
-      <section class="projects">
-        <h2 class="projects__title title">Projects</h2>
-        <ul class="projects__list list">
-          <li class="projects__item item"><a class="projects__link link" href="http://devirtual.beget.tech" target="_blank">Customization of the admin panel on Django</a> (login: admin, password: 12345)</li>
-          <li class="projects__item item"><a class="projects__link link" href="https://site1.devirtual.ru" target="_blank">Development of a washing machine repair website on WordPress</a></li>
-          <li class="projects__item item"><a class="projects__link link" href="https://site2.devirtual.ru" target="_blank">Deploying a CMS WordPress with Deep Theme installation</a></li>
-        </ul>
+      <section class="projects" id="projects">
+        <div class="projects__container">
+          <h2 class="projects__title title">Projects</h2>
+          <ul class="projects__list list">
+            <li class="projects__item item"><a class="projects__link link" href="http://devirtual.beget.tech" target="_blank">Customization of the admin panel on Django</a> (login: admin, password: 12345)</li>
+            <li class="projects__item item"><a class="projects__link link" href="https://site1.devirtual.ru" target="_blank">Development of a washing machine repair website on WordPress</a></li>
+            <li class="projects__item item"><a class="projects__link link" href="https://site2.devirtual.ru" target="_blank">Deploying a CMS WordPress with Deep Theme installation</a></li>
+          </ul>
+        </div>
       </section>
-      <section class="languages">
-        <h2 class="languages__title title">Languages</h2>
-        <ul class="languages__list list">
-          <li class="languages__item item">Russian - native</li>
-          <li class="languages__item item">English - A1</li>
-        </ul>
+      <section class="languages" id="languages">
+        <div class="languages__container">
+          <h2 class="languages__title title">Languages</h2>
+          <ul class="languages__list list">
+            <li class="languages__item item">Russian - native</li>
+            <li class="languages__item item">English - A1</li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__copyright">© 2022 All Rights Reserved. Created by <a class="footer__link" href="https://github.com/DEVirtual" target="_blank">DEVirtual</a>.</p>
-      <a class="footer__logo" href="https://rs.school/js/" target="_blank"><img class="footer__image" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+      <div class="footer__container">
+        <p class="footer__copyright">© 2022 All Rights Reserved. Created by <a class="footer__link" href="https://github.com/DEVirtual" target="_blank">DEVirtual</a>.</p>
+        <a class="footer__logo" href="https://rs.school/js/" target="_blank"><img class="footer__image" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+      </div>
     </footer>
   </div>
 </body>
